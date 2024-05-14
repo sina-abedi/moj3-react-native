@@ -1,0 +1,96 @@
+npx create-expo-app OffkadoProject
+
+cd OffkadoProject
+npx expo start
+
+install and config react-navigation6 with expo
+
+npm install @react-navigation/native-stack
+
+npm i react-native-webview
+
+npm run android
+npm run ios
+npm run web
+
+npm install -g expo-cli eas-cli
+
+expo -V
+
+creating eas.json:
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "preview3": {
+      "developmentClient": true
+    },
+    "production": {}
+  }
+}
+
+eas build -p android --profile preview
+eas build --platform all
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===
+{
+  "expo": {
+    "name": "moj3",
+    "slug": "moj3",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/xvn42j6b.jpeg",
+    "userInterfaceStyle": "light",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "splash": {
+      "image": "./assets/xvn42j6b.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/xvn42j6b.jpeg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sina_abedi_75.moj3"
+    },
+    "web": {
+      "favicon": "./assets/xvn42j6b.jpeg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1c006a49-0c94-455d-8e91-987d2e7f399c"
+      }
+    }
+  }
+}

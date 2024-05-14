@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "moj3",
+    "slug": "moj3",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/xvn42j6b.jpeg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/xvn42j6b.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/xvn42j6b.jpeg",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/xvn42j6b.jpeg"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "moj3",
+    "slug": "moj3",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/xvn42j6b.jpeg",
+    "userInterfaceStyle": "light",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "splash": {
+      "image": "./assets/xvn42j6b.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/xvn42j6b.jpeg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sina_abedi_75.moj3"
+    },
+    "web": {
+      "favicon": "./assets/xvn42j6b.jpeg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1c006a49-0c94-455d-8e91-987d2e7f399c"
+      }
+    }
+  }
+}
