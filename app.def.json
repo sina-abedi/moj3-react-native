@@ -4,10 +4,10 @@
     "slug": "moj3",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/xvn42j6b.jpeg",
+    "icon": "./assets/favicon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/xvn42j6b.jpeg",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/xvn42j6b.jpeg",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/xvn42j6b.jpeg"
+      "favicon": "./assets/favicon.png"
     }
   }
 }
